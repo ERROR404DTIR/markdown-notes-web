@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="70" viewBox="0 0 420 70" role="img" aria-label="Auto-saved to localStorage, your notes never leave your device">
+  <style>
+    .t { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.25); opacity: 1; } }
+    .check { stroke-dasharray: 30; stroke-dashoffset: 30; animation: draw 2.4s ease-in-out infinite; }
+    @keyframes draw { 0%,20% { stroke-dashoffset: 30; } 50%,100% { stroke-dashoffset: 0; } }
+  </style>
+  <rect width="420" height="70" rx="14" fill="#0f1220" stroke="#2b3150"/>
+  <circle class="pulse" cx="40" cy="35" r="16" fill="#1f7a4d"/>
+  <path class="check" d="M32 35 L38 41 L49 28" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="t" x="72" y="32" font-size="16" font-weight="700" fill="#ffffff">Auto-saved locally</text>
+  <text class="t" x="72" y="53" font-size="12.5" fill="#9aa6d6">Your notes never leave your device</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="markdown-notes-web - a tiny Markdown notes app">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1220"/>
+      <stop offset="100%" stop-color="#1a1f3a"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .type { transform-box: fill-box; transform-origin: left center; animation: typing 6s ease-in-out infinite; }
+    .t2 { animation-delay: .6s; }
+    .t3 { animation-delay: 1.2s; }
+    @keyframes typing { 0% { transform: scaleX(0); } 25%,85% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
+    .out { opacity: 0; animation: show 6s ease-in-out infinite; }
+    .o2 { animation-delay: .6s; }
+    .o3 { animation-delay: 1.2s; }
+    @keyframes show { 0%,15% { opacity: 0; transform: translateY(6px); } 30%,85% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    .float { animation: float 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+  </style>
+
+  <rect width="900" height="260" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="898" height="258" rx="17" fill="none" stroke="#2b3150"/>
+
+  <!-- title -->
+  <g class="float">
+    <text class="t" x="50" y="112" font-size="44" font-weight="800" fill="#ffffff">markdown-notes</text>
+    <text class="t" x="50" y="158" font-size="18" fill="#9aa6d6">A tiny Markdown notes app for your browser</text>
+    <text class="m" x="50" y="200" font-size="14" fill="#6f7bb0">HTML  ·  CSS  ·  JS  ·  zero dependencies</text>
+  </g>
+
+  <!-- editor -->
+  <rect x="520" y="34" width="160" height="192" rx="12" fill="#0b0d18" stroke="#2b3150"/>
+  <text class="m" x="534" y="58" font-size="11" fill="#5c6798">editor</text>
+  <text class="m" x="534" y="88" font-size="13" fill="#7ee0a8">#</text>
+  <rect class="type" x="550" y="78" width="100" height="10" rx="5" fill="#7ee0a8"/>
+  <rect class="type t2" x="534" y="112" width="120" height="8" rx="4" fill="#8aa0ff"/>
+  <rect class="type t3" x="534" y="134" width="90" height="8" rx="4" fill="#8aa0ff" opacity=".7"/>
+  <rect class="cursor" x="534" y="156" width="7" height="14" fill="#ffd166"/>
+
+  <!-- arrow -->
+  <path d="M692 130 H712" stroke="#ffd166" stroke-width="3" stroke-linecap="round"/>
+  <path d="M706 122 L716 130 L706 138" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- preview -->
+  <rect x="728" y="34" width="142" height="192" rx="12" fill="#f4f6ff"/>
+  <text class="m" x="742" y="58" font-size="11" fill="#8a93b8">preview</text>
+  <g class="out"><rect x="742" y="76" width="90" height="14" rx="4" fill="#1a1f3a"/></g>
+  <g class="out o2"><rect x="742" y="110" width="112" height="8" rx="4" fill="#5a6bd8"/></g>
+  <g class="out o3"><rect x="742" y="132" width="80" height="8" rx="4" fill="#5a6bd8" opacity=".7"/></g>
+</svg>
