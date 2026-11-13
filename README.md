@@ -1,5 +1,7 @@
 <div align="center">
 
+<p align="center"><img src="assets/readme-banner.svg" alt="Animated Markdown Notes banner" width="100%"></p>
+
 <img src="assets/banner.svg" alt="markdown-notes-web - a tiny Markdown notes app" width="100%"/>
 
 <br/>
@@ -13,15 +15,15 @@
 
 A tiny Markdown notes app that runs entirely in the browser. No build step, no dependencies.
 
-## ✨ Features
+##  Features
 
 | | Feature | Description |
 |---|---|---|
-| 📝 | **Live preview** | Headings, bold/italic, lists, quotes, code blocks and links |
-| 🗂️ | **Multiple notes** | Keep as many notes as you like, with search |
-| 💾 | **Auto-save** | Saved to your browser's localStorage as you type |
-| 🌗 | **Light & dark mode** | Follows your system theme |
-| 📱 | **Responsive** | Works on desktop and mobile |
+|  | **Live preview** | Headings, bold/italic, lists, quotes, code blocks and links |
+| ️ | **Multiple notes** | Keep as many notes as you like, with search |
+|  | **Auto-save** | Saved to your browser's localStorage as you type |
+|  | **Light & dark mode** | Follows your system theme |
+|  | **Responsive** | Works on desktop and mobile |
 
 <div align="center">
 
@@ -29,7 +31,7 @@ A tiny Markdown notes app that runs entirely in the browser. No build step, no d
 
 </div>
 
-## 🚀 Run it
+##  Run it
 
 Just open `index.html` in a browser, or serve the folder:
 
@@ -38,7 +40,7 @@ python -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-## 📁 Project structure
+##  Project structure
 
 ```text
 .
@@ -48,6 +50,6 @@ python -m http.server 8000
 └── assets/      # README graphics
 ```
 
-## 🔒 Privacy
+##  Privacy
 
 Your notes never leave your device.
